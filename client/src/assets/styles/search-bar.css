@@ -1,0 +1,30 @@
+.conteinerSearch {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background-color: yellow;
+  }
+  
+  .input {
+    padding: 1em;
+    width: 15em;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 4px 5px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  
+  .button {
+    width: 45px;
+    height: 45px;
+    border: 1px solid #FFFF00;
+    border-radius: 10px;
+    background: #FFFF00;
+    box-shadow: 4px 5px 5px 0px yellow;
+  }
+  
+  .button:active {
+    box-shadow: 7px 6px 28px 1px yellow;
+  }

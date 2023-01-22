@@ -1,0 +1,33 @@
+.containerForm {
+  margin-top: 3rem;
+  width: 100%;
+  height: 100%;
+  color: white;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerFormSubmit {
+  width: 500px;
+  height: 400px;
+  background-color: y;
+  border: 5px solid #fff44f;
+  border-radius: 15px;
+}
+
+.containerMinMax {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerYears {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

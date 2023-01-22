@@ -19,8 +19,12 @@ module.exports = (sequelize) => {
     weight: {
       type: DataTypes.JSON,
     },
-    yearsOfLife: {
+    life_span: {
       type: DataTypes.INTEGER,
+      allowNull: true,
+    },
+    image: {
+      type: DataTypes.TEXT,
       allowNull: true,
     },
   }, { timestamps: false });

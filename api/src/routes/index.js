@@ -12,8 +12,6 @@ router.get('/seedTemperament', seedTemperament)
 
 router.get('/dogs', getDogs)
 
-router.get('/dogs', getDogs)
-
 router.get('/dogs/:idRaza', getDogByIdBreed)
 
 router.post('/dogs', createDog)
